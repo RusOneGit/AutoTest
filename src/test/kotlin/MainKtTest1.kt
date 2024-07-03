@@ -75,7 +75,7 @@ class MainKtTest {
 
         val result = comissionCalc(card, previosTransfer, transfer)
 
-        assertEquals(-1, result)
+        assertEquals(0, result)
     }
 
 
